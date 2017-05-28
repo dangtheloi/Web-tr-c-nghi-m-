@@ -1,0 +1,10 @@
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\bin\WebThiTracNghiem.dll.config
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\bin\WebThiTracNghiem.dll
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\bin\WebThiTracNghiem.pdb
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\bin\WebThiTracNghiem.xml
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\obj\Debug\WebThiTracNghiem.Resources.resources
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\obj\Debug\WebThiTracNghiem.vbproj.GenerateResource.Cache
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\obj\Debug\WebThiTracNghiem.dll
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\obj\Debug\WebThiTracNghiem.xml
+c:\users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\obj\Debug\WebThiTracNghiem.pdb
+C:\Users\dangtheloi\documents\visual studio 2013\Projects\WebThiTracNghiem\WebThiTracNghiem\obj\Debug\WebThiTracNghiem.vbprojResolveAssemblyReference.cache

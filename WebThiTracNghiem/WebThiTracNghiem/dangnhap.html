@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Đăng nhập</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Preview page of Metronic Admin Theme #1 for " name="description" />
+    <meta content="" name="author" />
+   
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+  
+    <link href="../assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+  
+    <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+   
+    <link href="../assets/pages/css/login-4.min.css" rel="stylesheet" type="text/css" />
+  
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body class=" login">
+    <div class="btn-group pull-right">
+        <button type="button" class="btn white mt-ladda-btn ladda-button btn-circle btn-outline" data-style="slide-right" data-spinner-color="#333">
+            <span class="ladda-label">
+                <i class="icon-login"><a href="trangchu.html">Quay lại</a></i> 
+            </span>
+            <span class="ladda-spinner"></span>
+        </button>
+    </div>
+    <div class="content">      
+        <form class="login-form" action="index.html" method="post">
+            <h3 class="form-title">Đăng nhập</h3>
+            <div class="alert alert-danger display-hide">
+                <button class="close" data-close="alert"></button>
+                <span> Enter any username and password. </span>
+            </div>
+            <div class="form-group">         
+                <label class="control-label visible-ie8 visible-ie9">Tài khoản</label>
+                <div class="input-icon">
+                    <i class="fa fa-user"></i>
+                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Tên tài khoản" name="username" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Mật khẩu</label>
+                <div class="input-icon">
+                    <i class="fa fa-lock"></i>
+                    <input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Mật khẩu" name="password" />
+                </div>
+            </div>
+            <div class="form-actions">
+                <label class="rememberme mt-checkbox mt-checkbox-outline">
+                    <input type="checkbox" name="remember" value="1" /> Nhớ mật khẩu
+                    <span></span>
+                </label>
+                <button type="submit" class="btn green pull-right"> Đăng nhập </button>
+            </div>
+            <div class="login-options">
+                <h4>Hoặc đăng nhập bằng</h4>
+                <ul class="social-icons">
+                    <li>
+                        <a class="facebook" data-original-title="facebook" href="javascript:;"> </a>
+                    </li>
+                    <li>
+                        <a class="twitter" data-original-title="Twitter" href="javascript:;"> </a>
+                    </li>
+                    <li>
+                        <a class="googleplus" data-original-title="Goole Plus" href="javascript:;"> </a>
+                    </li>
+                    <li>
+                        <a class="linkedin" data-original-title="Linkedin" href="javascript:;"> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="forget-password">
+                <h4>Quên mật khẩu ?</h4>
+                <p>
+                    Nhấp vào
+                    <a href="javascript:;" id="forget-password"> đây </a>
+                </p>
+            </div>
+            <div class="create-account">
+                <p>
+                    Bạn chưa có tài khoản ?&nbsp;
+                    <a href="javascript:;" id="register-btn"> Đăng ký ngay </a>
+                </p>
+            </div>
+        </form>
+        <form class="forget-form" action="index.html" method="post">
+            <h3>Quên mật khẩu?</h3>
+            <p> Nhập email để cập nhật mật khẩu. </p>
+            <div class="form-group">
+                <div class="input-icon">
+                    <i class="fa fa-envelope"></i>
+                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email" name="email" />
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="button" id="back-btn" class="btn red btn-outline">Quay lại</button>
+                <button type="submit" class="btn green pull-right"> Tiếp tục </button>
+            </div>
+        </form>
+      
+        <form class="register-form" action="index.html" method="post">
+            <h3>Đăng ký</h3>
+            <p> Nhập đầy đủ thông tin: </p>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Tên đầy đủ</label>
+                <div class="input-icon">
+                    <i class="fa fa-font"></i>
+                    <input class="form-control placeholder-no-fix" type="text" placeholder="Tên" name="fullname" />
+                </div>
+            </div>
+            <div class="form-group">
+              
+                <label class="control-label visible-ie8 visible-ie9">Email</label>
+                <div class="input-icon">
+                    <i class="fa fa-envelope"></i>
+                    <input class="form-control placeholder-no-fix" type="text" placeholder="Email" name="email" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Địa chỉ</label>
+                <div class="input-icon">
+                    <i class="fa fa-check"></i>
+                    <input class="form-control placeholder-no-fix" type="text" placeholder="Địa chỉ" name="address" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Sống ở</label>
+                <div class="input-icon">
+                    <i class="fa fa-location-arrow"></i>
+                    <input class="form-control placeholder-no-fix" type="text" placeholder="Thành phố/thị xã" name="city" />
+                </div>
+            </div>
+            
+            <p> Nhập đầy đủ thông tin tài khoản: </p>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Tên đăng nhập</label>
+                <div class="input-icon">
+                    <i class="fa fa-user"></i>
+                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Tên đăng nhập" name="username" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Mật khẩu</label>
+                <div class="input-icon">
+                    <i class="fa fa-lock"></i>
+                    <input class="form-control placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Mật khẩu" name="password" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Nhập lại mật khẩu</label>
+                <div class="controls">
+                    <div class="input-icon">
+                        <i class="fa fa-check"></i>
+                        <input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Nhập lại mật khẩu" name="rpassword" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="mt-checkbox mt-checkbox-outline">
+                    <input type="checkbox" name="tnc" /> Bạn đồng ý với
+                    <a href="javascript:;">Điều khoản </a> &
+                    <a href="javascript:;">Chính sách bảo mật </a>
+                    <span></span>
+                </label>
+                <div id="register_tnc_error"> </div>
+            </div>
+            <div class="form-actions">
+                <button id="register-back-btn" type="button" class="btn red btn-outline"> Trờ về </button>
+                <button type="submit" id="register-submit-btn" class="btn green pull-right"> Đăng ký </button>
+            </div>
+        </form>
+      
+    </div>
+   
+    <div class="copyright"> 2017 &copy; Pro - Web thi trắc nghiệm. </div>
+   
+    <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+   
+    <script src="../assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+   
+    <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+  
+    <script src="../assets/pages/scripts/login-4.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>
